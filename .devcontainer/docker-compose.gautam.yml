@@ -57,7 +57,7 @@ services:
     environment:
       POSTGRES_PASSWORD: ${PGPASSWORD}
     ports:
-      - "5432:${PGPORT}"
+      - "5432:5432"
 
   headless-browser:
     image: browserless/chrome
