@@ -1,6 +1,6 @@
 {
   "name": "Lightdash",
-  "dockerComposeFile": "../docker/docker-compose.dev.yml",
+  "dockerComposeFile": "docker-compose.gautam.yml",
   "service": "lightdash-dev",
   "workspaceFolder": "/workspaces/lightdash",
   "shutdownAction": "stopCompose",
